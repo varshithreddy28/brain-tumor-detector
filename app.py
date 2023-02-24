@@ -19,7 +19,9 @@ def home():
 def predict():
     if request.method == 'POST':
         photo = request.files['brainPic']
+        print("Before saving")
         photo.save('static/brain.jpg')
+        print("After Saving")
         photo = cv2.resize(cv2.imread('static/brain.jpg'),
                            dsize=(240, 240), interpolation=cv2.INTER_CUBIC)
         cv2.imwrite('static/brain.jpg', photo)
