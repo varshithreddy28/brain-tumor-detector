@@ -1,0 +1,50 @@
+body {
+  background-color: #000000;
+  color: aliceblue;
+}
+
+.container.FromUpload {
+  max-width: fit-content;
+  /* text-align: center; */
+  margin-top: 12%;
+}
+h1 {
+  text-align: center;
+}
+label {
+  font-weight: 600;
+}
+input[type="submit"] {
+  width: 100%;
+  background-color: #563be0;
+  width: 100%;
+  color: #e2dcdc;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  /* height: 2.5em; */
+  border: none;
+  border-radius: 8px;
+  padding: 10px 22px;
+}
+.resImage {
+  display: flex;
+  justify-content: center;
+}
+.preditct {
+  text-align: center;
+  font-size: x-large;
+}
+
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 1.5em;
+}
+.submitbtn {
+  margin-top: 1em;
+}
+a.navbar-brand {
+  margin-left: 1.5em;
+}
